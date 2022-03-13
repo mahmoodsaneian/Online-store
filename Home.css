@@ -1,0 +1,146 @@
+/*body style sheet*/
+body{
+    background-image:url(images/backGround.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Header style sheet*/
+#Header{
+    text-align: center;
+    color: mediumspringgreen;
+    background-color: orangered;
+    font-size: large;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 45px;
+}
+
+/*Break section into 2 parts*/
+#navigationSection{
+    width: 300px;
+    height: 600px;
+    float: right;
+    display: inline-block;
+}
+
+#storeSection{
+    width: 1200px;
+    height: 800px;
+    float: left;
+    display: inline-block;
+}
+/*we break navigation into 2 parts*/
+/*Navigation description style sheet*/
+#articleNavigationTitle{
+    width: 300px;
+    height: 50px;
+    background-color: orangered;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#articleNavigation{
+    background-image: url(images/description.png);
+    width: 300px;
+    height: 800px;
+}
+/*Navigation bar style sheet*/
+#navigationBarTitle{
+    width: 300px;
+    height: 50px;
+    background-color: orangered;
+    display: inline-block;
+    font-size: 15px;
+}
+
+nav{
+    background-image: url(images/nav.png);
+    float: right;
+    width: 300px;
+    height: 350px;
+}
+
+#navigationList{
+    list-style-type: none;
+    float: right;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    padding-right: 103px;
+}
+
+/*Advetisement*/
+#advertisementTitle{
+    width: 300px;
+    height: 50px;
+    background-color: orangered;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#advertisement{
+    width: 300px;
+    height: 450px;
+    display: inline-block;
+}
+
+#Fanta{
+    width: 300px;
+    height: 450px;
+}
+/*Store section style sheet*/
+.product{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 40px;
+}
+
+.productImage{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.productName{
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    background-color: navajowhite;
+    border-radius: 20px;
+    font-size: 28px;
+}
+
+.productPrice{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    background-color: lightsalmon;
+    border-radius: 20px;
+}
+/*Footer section style sheet*/
+#footer{
+    text-align: center;
+    color: mediumspringgreen;
+    background-color: orangered;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 45px;
+    margin: 0%;   
+}
+
+/* Title adjustments */
+.title{
+    text-align: center;
+    color: mediumspringgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
