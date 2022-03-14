@@ -1,0 +1,22 @@
+/* body stylesheet */
+body{
+    background-image: url(images/AboutUsBackground.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* header stylesheet */
+header{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: navajowhite;
+    border-radius: 30px;
+    margin: 0;
+}
+/* section stylesheet */
+section{
+    display: inline-block;
+    width: 700px;
+    height: 1000px;
+    
+}
