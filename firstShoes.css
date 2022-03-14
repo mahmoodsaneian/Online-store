@@ -1,0 +1,120 @@
+/* body stylesheet */
+body{
+    background-image: url(images/productBackground.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* header stylesheet */
+header{
+    text-align: center;
+    color: black;
+    background-color:darkgoldenrod ;
+    font-size: larger;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px ;
+}
+
+/* Section stylesheet */
+section{
+    background-image: url(images/sectionBackground.png);
+    margin-left: 410px;
+    margin-top: 100px;
+    width: 700px;
+    height: 500px;
+}
+/* image section stylesheet */
+#imgSection{
+    margin: 50px;
+    margin-top: 100px;
+    display: inline-block;
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+#productImage{
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 15px;
+}
+/* Description section stylesheet */
+#descSection{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: aqua;
+    background-color: lightslategray;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 30px;
+    margin-top: 40px;
+}
+
+#prodName{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+}
+
+#prodNameText{
+    font-weight: bold;
+    font-size: larger;    
+}
+
+#prodDesc{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 120px;
+    display: inline-block;
+}
+
+#prodPrice{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+}
+
+#prodPriceText{
+    font-weight: bold;
+    font-size: larger;    
+}
+
+#addButton{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+}
+
+button{
+    border-radius: 10px;
+    border-color: aqua;
+    cursor: pointer;
+}
+/* footer stylesheet */
+footer{
+    text-align: center;
+    color: black;
+    background-color:darkgoldenrod ;
+    font-size: larger;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px ;    
+}
