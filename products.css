@@ -38,6 +38,8 @@ section{
     border-style: solid;
     border-color: aqua;
     border-radius: 15px;
+    width: 200px;
+    height: 200px;
 }
 /* Description section stylesheet */
 #descSection{
