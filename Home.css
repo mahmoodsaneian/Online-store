@@ -65,6 +65,10 @@ nav{
     float: right;
 }
 
+.link:hover{
+    color: mediumspringgreen;
+}
+
 .link{
     color: black;
     text-decoration: none;

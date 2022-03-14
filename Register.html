@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <!--Header-->
+    <div>
+        <header>
+            <h1>
+                Register in Adana store.
+            </h1>
+        </header>
+    </div>
+    <!--Section-->
+    <div id="sectionDiv">
+        <!--Create a form-->
+        <form action="#">
+            <!--Get username & password-->
+            <div class="fieldsetInfo">
+                <fieldset id="UserPassFieldset">
+                    <legend class="UP_text">Enter username & password : </legend>
+                    <label for="Username" class="UP_text">Username :              </label>
+                    <input type="text" id="Username" name="Username" class="inputElement"><br><br>
+                    <label for="Password" class="UP_text"> Password :              </label>
+                    <input type="password" id="Password" name="Password" class="inputElement"><br><br>
+                    <label for="ConfirmPassword" class="UP_text">Confirm Password : </label>
+                    <input type="text" id="ConfirmPassword" name="ConfirmPassword" class="inputElement"><br>
+                </fieldset>
+            </div>
+            <!--Get personal information-->
+            <div class="fieldsetInfo">
+                <fieldset id="PersonalInfoFieldset">
+                    <legend class="PI_text">Complete your personal information : </legend>
+                    <label for="FirstName" class="PI_text">First Name :      </label>
+                    <input type="text" id="FirstName" name="FirstName" class="inputElement"><br><br>
+                    <label for="LastName" class="PI_text">Last Name :       </label>
+                    <input type="text" id="LastName" name="LastName" class="inputElement"><br><br>
+                    <label for="email" class="PI_text">Email Address : </label>
+                    <input type="email" id="email" name="email" class="inputElement"><br><br>
+                    <label for="" class="PI_text">phone Number : </label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" class="inputElement"><br><br>
+                    <label for="birthdayDate" class="PI_text">Your Birthday :  </label>
+                    <input type="date" name="birthdayDate" id="birthdayDate" class="inputElement"><br><br>
+                    <input type="radio" id="maleRadio" name="maleRadio" value="Male" class="inputElement">
+                    <label for="maleRdio" class="PI_text">Male</label>
+                    <input type="radio" id="femaleRadio" name="femaleRadio" value="Female" class="inputElement">
+                    <label for="femaleRadio" class="PI_text">Female</label>
+                </fieldset>
+            </div>
+            <!--Get bank info-->
+            <div class="fieldsetInfo">
+                <fieldset id="BankInfoFieldSet">
+                    <legend class="BI_text">Complete your bank information : </legend>
+                    <label for="BankName" class="BI_text">Bank Name :</label>
+                    <input type="text" name="BankName" id="BankName" class="inputElement"><br><br>
+                    <label for="AccountNumber" class="BI_text">Account Number : </label>
+                    <input type="text" name="AccountNumber" id="AccountNumber" class="inputElement"><br>
+                </fieldset>
+                <br><br><br>
+            </div>
+            <!--Submit button-->
+            <div class="fieldsetInfo">
+                <input type="submit" value="submit" id="submitButton">
+            </div>
+        </form>
+    </div>
+    <!--Footer-->
+    <div>
+        <footer>
+            <p id="footer">
+                adana-store.com
+            </p>
+        </footer>
+    </div>
+
+</body>
+</html>
