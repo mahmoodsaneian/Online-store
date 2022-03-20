@@ -17,6 +17,71 @@ header{
 section{
     display: inline-block;
     width: 700px;
-    height: 1000px;
-    
+    height: 1600px;
+    background-image: url(images/AboutUsArticleBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 400px;
+    margin-top: 15px;
+}
+/* navigation bar stylesheet */
+#navigationbar{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background-color: navajowhite;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.listItem{
+    display: inline;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+.internalLink{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.internalLink:hover{
+    color: red;
+}
+
+.internalLink:active{
+    color: blue;
+}
+/* description stylesheet */
+article{
+    display: inline-block;
+    width: 660px;
+    height: 900px;
+    margin: 20px;
+}
+
+.headers{
+    font-size: 30px;
+}
+
+.description{
+    text-align: justify;
+}
+
+/* footer stylesheet */
+footer{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: navajowhite;
+    border-radius: 30px;
+    margin: 0;
 }
